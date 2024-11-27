@@ -11,7 +11,7 @@ const onUserAdd = (user) => {
 }
 
   return (
-    <div className='bg-green-800 pt-10 h-screen'>
+    <div className='bg-green-800 pt-6 h-screen'>
       <h1 className='text-white text-3xl m-3'>Jest testing - practice</h1>
       <UserForm onUserAdd={onUserAdd} />
       
